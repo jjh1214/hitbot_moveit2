@@ -1,0 +1,31 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: hitbot_sim
+    relative_path: urdf/Z-Arm_10042C0.urdf
+  srdf:
+    relative_path: config/Z-Arm_10042C0.srdf
+  package_settings:
+    author_name: dev_Jung
+    author_email: seedn7777@cwsfa.co.kr
+    generated_timestamp: 1715303986
+  control_xacro:
+    command:
+      - position
+      - velocity
+      - effort
+    state:
+      - position
+      - velocity
+      - effort
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+      - velocity
+      - effort
+    state:
+      - position
+      - velocity
+      - effort
