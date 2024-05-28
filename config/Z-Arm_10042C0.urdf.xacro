@@ -3,7 +3,7 @@
     <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
 
     <!-- Import Z-Arm_10042C0 urdf file -->
-    <xacro:include filename="$(find hitbot_sim)/urdf/Z-Arm_10042C1.urdf" />
+    <xacro:include filename="$(find hitbot_sim)/urdf/Z-Arm_10042C0_moveit2.urdf" />
 
     <!-- Import control_xacro -->
     <xacro:include filename="Z-Arm_10042C0.ros2_control.xacro" />
