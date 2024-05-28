@@ -1,7 +1,7 @@
 moveit_setup_assistant_config:
   urdf:
     package: hitbot_sim
-    relative_path: urdf/Z-Arm_10042C0.urdf
+    relative_path: urdf/Z-Arm_10042C0_moveit2.urdf
   srdf:
     relative_path: config/Z-Arm_10042C0.srdf
   package_settings:
